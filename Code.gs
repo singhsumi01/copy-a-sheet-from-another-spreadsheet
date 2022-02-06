@@ -13,7 +13,7 @@ const CONFIG = {
   }
 };
 
-function importSheet() {
+const importSheet = () => {
   try {
     const sourceSheet = SpreadsheetApp.openByUrl(CONFIG.URL.SOUCE_SHEET_URL).getSheetByName(CONFIG.SHEET_TO_COPY.SHEET_NAME);
 
