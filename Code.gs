@@ -15,7 +15,6 @@ const CONFIG = {
 
 function importSheet() {
   try {
-    // const ss = SpreadsheetApp.getActiveSpreadsheet();
     const sourceSheet = SpreadsheetApp.openByUrl(CONFIG.URL.SOUCE_SHEET_URL).getSheetByName(CONFIG.SHEET_TO_COPY.SHEET_NAME);
 
     /* Before copying the sheet, delete the exiting copy (if any) */
