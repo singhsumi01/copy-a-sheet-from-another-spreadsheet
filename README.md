@@ -17,7 +17,7 @@ A lightweight and robust Google Apps Script utility that seamlessly imports a sp
 4. Update the `CONFIG` variables at the top of the file:
    ```javascript
    const CONFIG = {
-     SOURCE_SHEET_URL: '[https://docs.google.com/spreadsheets/d/your-source-url-here/edit](https://docs.google.com/spreadsheets/d/your-source-url-here/edit)', 
+     SOURCE_SHEET_URL: 'https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxxxxxxxx/edit', 
      SHEET_NAME: 'DataSheet1', // The exact name of the tab you want to copy
      // ...
    };
