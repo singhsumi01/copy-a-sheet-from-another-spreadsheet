@@ -1,3 +1,14 @@
+# ⚠️ REPOSITORY CONSOLIDATED & ARCHIVED
+
+> [!IMPORTANT]
+> **Active development has moved to our centralized monorepo:**
+> 👉 **[`google-apps-script-private/projects/copy-a-sheet-from-another-spreadsheet`](https://github.com/singhsumi01/google-apps-script-private/tree/main/projects/copy-a-sheet-from-another-spreadsheet)**
+>
+> All active development, bug fixes, features, and releases now happen in the monorepo.
+> This repository is now archived and read-only.
+
+---
+
 # Google Sheets: Remote Sheet Importer
 
 A lightweight and robust Google Apps Script utility that seamlessly imports a specific sheet from an external Google Spreadsheet into your active workbook. If a sheet with the same name already exists in your current workbook, it safely deletes the old version and replaces it with the fresh copy.
