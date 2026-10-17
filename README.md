@@ -2,7 +2,7 @@
 
 > [!IMPORTANT]
 > **Active development has moved to our centralized monorepo:**
-> 👉 **[`google-apps-script-private/projects/copy-a-sheet-from-another-spreadsheet`](https://github.com/singhsumi01/google-apps-script-private/tree/main/projects/copy-a-sheet-from-another-spreadsheet)**
+> 👉 **[`google-apps-script/projects/copy-a-sheet-from-another-spreadsheet`](https://github.com/singhsumi01/google-apps-script/tree/main/projects/copy-a-sheet-from-another-spreadsheet)**
 >
 > All active development, bug fixes, features, and releases now happen in the monorepo.
 > This repository is now archived and read-only.
@@ -26,10 +26,10 @@ A lightweight and robust Google Apps Script utility that seamlessly imports a sp
 2. Click on **Extensions** > **Apps Script** in the top menu.
 3. Delete any code in the script editor and paste the code from `importSheet.gs`.
 4. Update the `CONFIG` variables at the top of the file:
-   
+
    ```javascript
    const CONFIG = {
-     SOURCE_SHEET_URL: 'https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxxxxxxxx/edit', 
+     SOURCE_SHEET_URL: 'https://docs.google.com/spreadsheets/d/xxxxxxxxxxxxxxxxxxxxx/edit',
      SHEET_NAME: 'DataSheet1', // The exact name of the tab you want to copy
      // ...
    };
