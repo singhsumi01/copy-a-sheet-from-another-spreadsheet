@@ -2,7 +2,7 @@
 
 > [!IMPORTANT]
 > **Active development has moved to our centralized monorepo:**
-> 👉 **[`google-apps-script/projects/copy-a-sheet-from-another-spreadsheet`](https://github.com/singhsumi01/google-apps-script/tree/main/projects/copy-a-sheet-from-another-spreadsheet)**
+> 👉 **[`google-apps-script/projects/SheetCloner`](https://github.com/singhsumi01/google-apps-script/tree/main/projects/SheetCloner)**
 >
 > All active development, bug fixes, features, and releases now happen in the monorepo.
 > This repository is now archived and read-only.
